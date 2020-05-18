@@ -16,8 +16,8 @@ type Action int
 type metadataStateType int
 
 const (
-	issueMetadata metadataStateType = 0
-	prMetadata    metadataStateType = 1
+	issueMetadata metadataStateType = iota
+	prMetadata
 )
 
 type issueMetadataState struct {
